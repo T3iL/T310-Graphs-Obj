@@ -10,7 +10,9 @@
 ```
 T31001 - Utwórz wizualizator funkcji matematycznych
 
-T31002 - Przygotuj 
+T31004 - Narysuj sinusoidę
+
+T31005 - Zanimuj sinusoidę
 ```
 ### --------Links
 https://github.com/T3iL/T310-Graphs-Obj
