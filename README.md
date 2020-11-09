@@ -11,7 +11,7 @@
 
 T31001 - Przygotuj klase obiektow JS o strukturze zawierajacej wlasciwosci i metody obiektu: samochod, uczen, mebel, mieszkanie.
 
-T31002 - Utwórz wizualizator funkcji matematycznych
+T31002 - Utworz klase generujaca kod HTML menu strony (przy deklaracji podajemy etykiety, linki, kolor, wyrownanie). 
 
 T31003 - Narysuj sinusoidę
 
