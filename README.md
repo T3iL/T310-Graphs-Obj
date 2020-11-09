@@ -12,6 +12,7 @@
 T31001 - Przygotuj klase obiektow JS o strukturze zawierajacej wlasciwosci i metody obiektu: samochod, uczen, mebel, mieszkanie.
 
 T31002 - Utworz klase generujaca kod HTML menu strony (przy deklaracji podajemy etykiety, linki, kolor, wyrownanie). 
+Wygenerowany kod wypisz w textarea oraz wstaw do biezacej strony.
 
 T31003 - Narysuj sinusoidę
 
