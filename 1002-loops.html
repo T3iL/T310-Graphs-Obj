@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-loops</title>
+</head>
+<body>
+    <script>
+        //for
+        for(let i = 10;i < 10; i++){
+                console.log('FOR ',i);
+        }
+        //while
+        let i = 10;
+        while(i < 10){
+            console.log('WHILE ',i);
+            i++;
+        }
+        //do while
+        let j=5;
+        do{
+            // console.log('DO WHILE ',j);
+            j++;
+        } while (j < 10);
+
+        const myArr = [1,2,3,4,5,6];
+
+        for(let i = 0;i <= myArr.length; i++){
+            console.log('FOR ' + i);
+        }
+        //higher order functions
+        myArr.forEach((i)=>{console.log('FOR EACH ' + i);})
+
+        let grade = 7;
+        //switch
+        switch(grade){
+            case 1:
+                console.log('Dostales jedynke');
+            break;
+            case 2:
+                console.log('Dostales dwojke');
+            break;
+            case 3:
+                console.log('Dostales trojke');
+            break;
+            case 4:
+                console.log('Dostales czworke');
+            break;
+            case 5:
+                console.log('Dostales piatke');
+            break;
+            case 6:
+                console.log('Dostales szostke');
+            break;
+            default:
+                console.log('Nieznana wartosc');
+        }
+    </script>
+</body>
+</html>

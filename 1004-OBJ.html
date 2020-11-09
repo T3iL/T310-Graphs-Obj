@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJ</title>
+</head>
+<body>
+    <script>
+        //Number,String,Boolean,null,undefined
+        //Array
+
+        const myArr = [];
+        const myArr2 = new Array(1,2,3,4);
+        
+        //Object
+        const user = {
+            name:"Janek",
+            age:30,
+            email:"janek@gmail.com",
+            wypisz:function(){
+                console.log(this.name + ' ma ' + this.age + ' lat.');
+            }
+        };
+
+        user.wypisz();
+
+        //class
+        class User {
+            constructor(name,age = 25){
+                this.name = name;
+                this.age = age;
+            }
+            login(){
+                console.log(this.name + ' was logged in');
+            }
+        }
+        
+        const users = [
+            user1 = new User('Janek'),
+            user2 = new User('Czesiek',36),
+            user3 = new User('Grzesiek'),
+            user4 = new User('Tymek')
+        ]
+
+        users.forEach((usr)=>{
+           usr.login(); 
+        });
+
+        class Admin extends User {
+            constructor(name,age,email){
+                super(name,age);
+                this.email = email;
+            }
+        }
+
+        let admin1 = new Admin('Dawid',23,'dawid@gmail.com');
+
+        console.log('----',admin1.name,admin1.age,admin1.email);
+
+    </script>
+    
+</body>
+</html>
