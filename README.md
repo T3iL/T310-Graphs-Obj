@@ -8,11 +8,14 @@
 
 ### --------ZAD
 ```
-T31001 - Utwórz wizualizator funkcji matematycznych
 
-T31004 - Narysuj sinusoidę
+T31001 - Przygotuj klase obiektow JS o strukturze zawierajacej wlasciwosci i metody obiektu: samochod, uczen, mebel, mieszkanie.
 
-T31005 - Zanimuj sinusoidę
+T31002 - Utwórz wizualizator funkcji matematycznych
+
+T31003 - Narysuj sinusoidę
+
+T31004 - Zanimuj sinusoidę
 ```
 ### --------Links
 https://github.com/T3iL/T310-Graphs-Obj
