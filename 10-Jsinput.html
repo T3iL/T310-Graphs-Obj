@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-JS</title>
+</head>
+<body>
+    <input id="emailInput" type="text">
+    <button id="testBtn">Sprawdz</button>
+    <p id="message"></p>
+    <script>
+
+        const input = document.querySelector('#emailInput');
+        const btn = document.querySelector('#testBtn');
+        const msg = document.querySelector('#message');
+
+        btn.addEventListener('click',test);
+
+        function test(){
+            const teststr = input.value;
+
+            console.log(input.value);
+            if(teststr !== ''){
+                if(teststr.indexOf('@') !== -1 && teststr.indexOf('.') !== -1){
+                    const rest = teststr.substr(teststr.indexOf('@') + 1,teststr.length);
+                    const domena = rest.substr(0,rest.indexOf('.'));
+                    msg.innerHTML = 'Twój email jest w domenie : ' + rest;
+                } else {
+                    msg.innerHTML = 'Wprowadzany tekst nie wyglada na e-mail';
+                }
+            } else {
+                msg.innerHTML = "Wypelnij pole testowe";
+            }
+
+        }
+
+
+
+        // sprawdz na jakim sewrwerze jest poczta e-mail
+
+
+
+
+    </script>
+</body>
+</html>
