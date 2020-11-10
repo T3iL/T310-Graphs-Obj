@@ -15,12 +15,14 @@ T31001 - Przygotuj klase obiektow JS o strukturze zawierajacej wlasciwosci i met
 T31002 - Utworz klase generujaca kod HTML menu strony (przy deklaracji podajemy etykiety, linki, kolor, wyrownanie). 
 Wygenerowany kod wypisz w textarea oraz wstaw do biezacej strony.
 
-T31003 - Narysuj sinusoidę
+T31003 - Narysuj sinusoidę 
 
 T31004 - Zanimuj sinusoidę
 ```
 ### --------Links
 https://github.com/T3iL/T310-Graphs-Obj
+
+https://codepen.io/infrmtktl/pen/MWezYWq
 
 GOOGLE DRIVE: https://drive.google.com/drive/folders/1FCn1K3AvZdta3JRNnfCFUlSqAyMWgxNe?usp=sharing
 
