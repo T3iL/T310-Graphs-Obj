@@ -17,7 +17,7 @@ Wygenerowany kod wypisz w textarea oraz wstaw do biezacej strony.
 
 T31003 - Narysuj sinusoidę 
 
-T31004 - Zanimuj sinusoidę
+T31004 - Zanimuj sinusoidę w pętli (animacja kolorów przesunięcia i amplitudy)
 ```
 ### --------Links
 https://github.com/T3iL/T310-Graphs-Obj
